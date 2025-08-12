@@ -45,6 +45,36 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        bt_prof_clear_all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <12 13 14 15 16 17>;
+        };
+
+        bt_prof_0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <32 2 5>;
+        };
+
+        bt_prof_1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <2 32 6>;
+        };
+
+        bt_prof_2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <2 32 7>;
+        };
+
+        bt_prof_3 {
+            bindings = <&bt BT_SEL 3>;
+            key-positions = <2 32 8>;
+        };
+
+        bt_prof_4 {
+            bindings = <&bt BT_SEL 4>;
+            key-positions = <2 32 9>;
+        };
     };
 
     macros {
@@ -112,10 +142,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
-        &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp NUMBER_0
-                               &trans    &trans     &trans      &mo ADJ   &kp KP_N0     &trans
+        &kp ESC    &kp MINUS  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
+        &kp LSHFT  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
+&trans  &kp DEL    &kp PG_UP  &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp NUMBER_0
+                              &trans    &trans     &trans      &mo ADJ   &kp KP_N0     &trans
             >;
         };
 
@@ -164,7 +194,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans  &trans    &trans  &kp F9  &kp F10  &kp F11  &kp F12
+        &sys_reset   &trans      &out OUT_TOG  &trans  &trans    &trans  &kp F9  &kp F10  &kp F11  &kp F12
         &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &kp F5  &kp F6   &kp F7   &kp F8
 &trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
                                  &trans        &trans  &trans    &trans  &trans  &trans
