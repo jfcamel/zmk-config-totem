@@ -255,10 +255,10 @@
 
         layer_6 {
             bindings = <
-        &trans          &trans            &trans           &trans  &trans    &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans
-        &msc SCRL_LEFT  &msc MOVE_Y(20)   &trans           &trans  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans
-&trans  &trans          &msc MOVE_Y(-20)  &msc SCRL_RIGHT  &trans  &trans    &trans  &trans          &mmv MOVE_DOWN  &trans           &trans  &trans
-                                          &trans           &trans  &trans    &trans  &trans          &trans
+        &trans          &mkp LCLK         &trans           &mkp RCLK  &trans    &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK        &trans
+        &msc SCRL_LEFT  &msc MOVE_Y(20)   &trans           &trans     &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &trans
+&trans  &trans          &msc MOVE_Y(-20)  &msc SCRL_RIGHT  &trans     &trans    &trans  &trans          &mmv MOVE_DOWN  &trans           &trans  &trans
+                                          &trans           &trans     &trans    &trans  &trans          &trans
             >;
         };
     };
