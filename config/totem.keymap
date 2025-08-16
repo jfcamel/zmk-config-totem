@@ -142,10 +142,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9  &kp KP_PLUS
-        &mt LSHFT A   &kp LEFT      &kp UP        &kp RIGHT     &trans          &trans        &kp MINUS         &kp EQUAL          &kp INT_YEN   &kp KP_MINUS
-&trans  &trans        &kp PG_UP     &kp DOWN      &kp PG_DN     &trans          &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUHS      &kp KP_MULTIPLY  &kp NUMBER_0
-                                    &trans        &trans        &trans          &mo ADJ       &kp KP_N0         &trans
+        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0
+        &mt LSHFT A   &kp LEFT      &kp UP        &kp RIGHT     &trans          &kp MINUS         &kp EQUAL          &kp INT3      &kp INT_YEN    &trans
+&trans  &trans        &kp PG_UP     &kp DOWN      &kp PG_DN     &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUHS      &kp SEMICOLON  &kp SINGLE_QUOTE  &trans
+                                    &trans        &trans        &trans          &mo ADJ           &kp KP_N0          &trans
             >;
         };
 
