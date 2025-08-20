@@ -40,40 +40,9 @@
             bindings = <&kp ESC>;
         };
 
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 0>;
-        };
-
         bt_prof_clear_all {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <12 13 14 15 16 17>;
-        };
-
-        bt_prof_0 {
-            bindings = <&bt BT_SEL 0>;
-            key-positions = <32 2 5>;
-        };
-
-        bt_prof_1 {
-            bindings = <&bt BT_SEL 1>;
-            key-positions = <2 32 6>;
-        };
-
-        bt_prof_2 {
-            bindings = <&bt BT_SEL 2>;
-            key-positions = <2 32 7>;
-        };
-
-        bt_prof_3 {
-            bindings = <&bt BT_SEL 3>;
-            key-positions = <2 32 8>;
-        };
-
-        bt_prof_4 {
-            bindings = <&bt BT_SEL 4>;
-            key-positions = <2 32 9>;
         };
     };
 
