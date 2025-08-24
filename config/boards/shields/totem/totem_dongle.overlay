@@ -1,6 +1,0 @@
-// filepath: config/boards/shields/totem/totem_dongle.overlay
-/*
- * Dongle overlay for TOTEM
- */
-#include "totem.dtsi"
-// No kscan or matrix needed for dongle, but you may want to enable output or other features
