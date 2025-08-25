@@ -1,6 +1,12 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+        transform = <&default_transform>;
+    };
+
     chosen {
         zmk,kscan = &mock_kscan;
     };
@@ -24,11 +30,4 @@
         >;
     };
 
-    / {
-      physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-        transform = <&default_transform>;
-      };
-  };
 };

@@ -1,3 +1,4 @@
+#include <physical_layouts.dtsi>
 #import "totem.dtsi"
 
 &physical_layout0 {
