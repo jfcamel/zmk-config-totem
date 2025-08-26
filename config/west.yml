@@ -17,17 +17,17 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: blank-slate-zmk-module
-      remote: petejohanson
-      revision: main
-    - name: forager-zmk-module
+    # - name: blank-slate-zmk-module
+    #   remote: petejohanson
+    #   revision: main
+    # - name: zmk-rgbled-widget
+    #   remote: caksoylar
+    #   revision: main
+    # - name: zmk-dongle-screen
+    #   remote: janpfischer
+    #   revision: main
+    - name: prospector-zmk-module
       remote: carrefinho
-      revision: main
-    - name: zmk-rgbled-widget
-      remote: caksoylar
-      revision: main
-    - name: zmk-dongle-screen
-      remote: janpfischer
       revision: main
   self:
     path: config
